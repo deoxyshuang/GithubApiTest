@@ -11,7 +11,7 @@ android {
         config {
             keyAlias 'debug'
             keyPassword 'asdftfv'
-            storeFile file('/home/mohsen/IdeaProjects/GitHubRestApiTest/keystore/debug-key-store.jks')
+            storeFile file('D:\\APPDEV\\kotlin\\bear\\GithubApiTest\\keystore\\debug-key-store.jks')
             storePassword 'asdftfv'
         }
     }
@@ -39,9 +39,9 @@ android {
     dataBinding {
         enabled = true
     }
-    dexOptions {
+    /*dexOptions {
         javaMaxHeapSize "4g"
-    }
+    }*/
     compileOptions {
         sourceCompatibility JavaVersion.VERSION_1_8
         targetCompatibility JavaVersion.VERSION_1_8
